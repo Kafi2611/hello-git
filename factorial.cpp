@@ -14,7 +14,7 @@ int factorial(int n) {
 int main() {
     int num = 5;
     if (isValid(num)) {
-        cout << "Factorial of " << num << " is " << factorial(num) << endl;
+        cout << "The factorial of " << num << " equals " << factorial(num) << endl;
     } else {
         cout << "Invalid input!" << endl;
     }
