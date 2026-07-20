@@ -14,7 +14,9 @@ int factorial(int n) {
 int main() {
     int num = 5;
     if (isValid(num)) {
+
         cout << "Result: factorial(" << num << ") = " << factorial(num) << endl;
+
     } else {
         cout << "Invalid input!" << endl;
     }
